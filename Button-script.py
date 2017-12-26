@@ -8,10 +8,12 @@ from signal import pause
 
 
 logtext = ""
+localtime = ""
 
 def putinlog(logtext):
+            localtime = time.asctime( time.localtime(time.time()) )
             log= open('logfile.txt', 'a')
-            log.write('/n' + logtext)
+            log.write('\n' + localtime + " --- " + logtext)
             log.close()
 def button_press():
 

@@ -1,1 +1,5 @@
-/nButton pressed/nImage posted/nButton released
+This is the Foodbox Log file. It contains diagnostic data for the following events-
+
+Tue Dec 26 13:00:04 2017 --- Button pressed
+Tue Dec 26 13:00:19 2017 --- Image posted
+Tue Dec 26 13:00:20 2017 --- Button released
